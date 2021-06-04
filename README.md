@@ -36,7 +36,7 @@ etl.py - ETL script to read data from S3, processes that data using Spark, and w
 
 dl.cfg - Before running the project add your AWS credentials.
 
-udacity-datalake-project.ipynb - Is Jupyter notepad used on AWS JupyterLab to evaluate and write code logic. To run this notebook sections AWS credentials needs to be added in the begining. 
+spark-data-lake-etl.ipynb - Is Jupyter notepad used on AWS JupyterLab to evaluate and write code logic. To run this notebook sections AWS credentials needs to be added in the begining. 
 
 data - sample local json data for testing.
 
