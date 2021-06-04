@@ -33,7 +33,10 @@ The log files in the dataset you'll be working with are partitioned by year and 
 
 ### Project Structure 
 etl.py - ETL script to read data from S3, processes that data using Spark, and writes them back to S3
+
 dl.cfg - Before running the project add your AWS credentials.
+
 udacity-datalake-project.ipynb - Is Jupyter notepad used on AWS JupyterLab to evaluate and write code logic. To run this notebook sections AWS credentials needs to be added in the begining. 
+
 data - sample local json data for testing.
 
