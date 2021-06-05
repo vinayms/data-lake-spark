@@ -66,7 +66,7 @@ def process_log_data(spark, input_data, output_data):
 
     """
     # get filepath to log data file
-    log_data = "/log_data/*/*/*.json"
+    log_data = input_data+"/log_data/*/*/*.json"
 
     # read log data file
     log_data_df = spark.read.json(log_data)
