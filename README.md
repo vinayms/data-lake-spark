@@ -1,5 +1,5 @@
-## Overview 
-This project is part of Data Engineer nanodegree. The main objective is to build an ETL pipeline that extracts the data from AWS S3, proces using Spark(python libraries). This project executed on AWS EMR Spark Cluster and also used JupyterLab to develop and test code. 
+## Overview
+This project is part of Data Engineer nanodegree. The main objective is to build an ETL pipeline that extracts the data from AWS S3, proces using Spark(python libraries). This project executed on AWS EMR Spark Cluster and also used JupyterLab to develop and test code.
 
 ## Introduction
 A music streaming startup, Sparkify, has grown their user base and song database even more and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
@@ -14,7 +14,9 @@ In this project, you'll apply what you've learned on Spark and data lakes to bui
 
 ## Project Datasets
 Here are the S3 links for each:
+
     Song data: s3://udacity-dend/song_data
+
     Log data: s3://udacity-dend/log_data
 
 ## Song Dataset
@@ -31,12 +33,11 @@ The log files in the dataset you'll be working with are partitioned by year and 
     log_data/2018/11/2018-11-12-events.json
     log_data/2018/11/2018-11-13-events.json
 
-### Project Structure 
+### Project Structure
 etl.py - ETL script to read data from S3, processes that data using Spark, and writes them back to S3
 
 dl.cfg - Before running the project add your AWS credentials.
 
-spark-data-lake-etl.ipynb - Is Jupyter notepad used on AWS JupyterLab to evaluate and write code logic. To run this notebook sections AWS credentials needs to be added in the begining. 
+spark-data-lake-etl.ipynb - Is Jupyter notebook used and tested on AWS JupyterLab to evaluate and write code logic.
 
 data - sample local json data for testing.
-
